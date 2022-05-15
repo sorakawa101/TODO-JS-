@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="ja">
 
 <head>
 	<title>TODO(JS)</title>
@@ -10,14 +10,14 @@
 <body>
     <div class="input-area">
         <div>
-            <input placeholder="TODOを入力" />
-            <button>追加</button>
+            <input id="add-text" placeholder="TODOを入力" />
+            <button id="add-button">追加</button>
         </div>
     </div>
-	<div class="imcomplete-area">
+	<div class="incomplete-area">
         <div>
             <p class="title">未完了のTODO</p>
-            <ul>
+            <ul id="incomplete-list">
                 <div class="list-row">
                     <li>TODOです</li>
                     <button>完了</button>
@@ -44,7 +44,7 @@
     </div>
 
 
-	<script src="src/index.js">
+	<script src="./src/index.js">
 	</script>
 </body>
 
